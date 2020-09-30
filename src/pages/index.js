@@ -11,8 +11,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={siteConfig.title}
+      description="Get help with theDesk, theBeat and more.">
       <main>
       <section className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
@@ -31,7 +31,7 @@ function Home() {
                         'button button--outline button--secondary button--lg',
                         styles.getStarted,
                       )}
-                      to={useBaseUrl('docs/thebeat/install')}>
+                      to={useBaseUrl('docs/thebeat/intro')}>
                       theBeat
                     </Link>
                 </div>

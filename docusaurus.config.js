@@ -9,7 +9,7 @@ module.exports = {
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
     colorMode: {
-      defaultMode: 'light'
+      defaultMode: 'dark'
     },
     navbar: {
       title: 'Victor Tran',
@@ -20,7 +20,7 @@ module.exports = {
       items: [
         {
           to: 'docs/thebeat/install',
-          activeBasePath: 'docs',
+          activeBasePath: 'docs/thebeat',
           label: 'theBeat',
           position: 'left',
         },
@@ -32,14 +32,13 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'dark',
       links: [
         {
           title: 'Docs',
           items: [
             {
               label: 'theBeat',
-              to: 'docs/thebeat/install',
+              to: 'docs/thebeat/intro',
             },
           ],
         },
@@ -77,4 +76,5 @@ module.exports = {
       },
     ],
   ],
+  plugins: ['@docusaurus/plugin-ideal-image']
 };

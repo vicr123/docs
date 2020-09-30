@@ -1,5 +1,6 @@
 module.exports = {
   thebeat: {
-    "Getting Started": ['thebeat/install', 'thebeat/library'],
+    "Getting Started": ['thebeat/intro', 'thebeat/install'],
+    "Navigation": ['thebeat/library']
   },
 };
