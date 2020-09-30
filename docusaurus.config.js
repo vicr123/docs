@@ -6,7 +6,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   favicon: 'img/icon.png',
   organizationName: 'vicr123', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
   themeConfig: {
     colorMode: {
       defaultMode: 'light'
@@ -38,42 +38,25 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'theBeat',
+              to: 'docs/thebeat/install',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Connect',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Discord',
+              href: 'https://discord.gg/mptGQDJ',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'YouTube',
+              href: 'https://www.youtube.com/channel/UCCD3mx0y2KSbD0eFJ0WGOBg',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://twitter.com/vicr12345',
             },
           ],
         },
