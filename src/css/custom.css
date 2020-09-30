@@ -1,0 +1,57 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+ 
+@font-face {
+    font-family: 'Contemporary';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Contemporary'), local('Contemporary-Regular'), url('https://vicr123.com/typeface/Contemporary-Regular.ttf');
+}
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: rgb(0, 100, 255);
+  --ifm-color-primary-dark: rgb(40, 40, 40);
+  --ifm-color-primary-darker: rgb(20, 20, 20);
+  --ifm-color-primary-darkest: rgb(0, 0, 0);
+  --ifm-color-primary-light: rgb(235, 235, 235);
+  --ifm-color-primary-lighter: rgb(255, 255, 255);
+  --ifm-color-primary-lightest: rgb(255, 255, 255);
+  --ifm-background-color: rgb(235, 235, 235);
+  --ifm-toc-border-color: black;
+  --ifm-code-font-size: 95%;
+}
+
+html[data-theme="dark"] {
+  --ifm-color-primary: rgb(0, 200, 255);
+  --ifm-background-color: rgb(40, 40, 40);
+  --ifm-toc-border-color: white;
+}
+
+html {
+    font-family: 'Contemporary';
+}
+
+h1, h2, h4, h5, h6 {
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+h3 {
+    font-size: 15pt;
+    text-transform: uppercase;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
