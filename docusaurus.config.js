@@ -19,7 +19,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/thebeat/install',
+          to: 'docs/thebeat/intro',
           activeBasePath: 'docs/thebeat',
           label: 'theBeat',
           position: 'left',
@@ -31,6 +31,7 @@ module.exports = {
         },
       ],
     },
+    sidebarCollapsible: false,
     footer: {
       links: [
         {
