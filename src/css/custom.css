@@ -21,6 +21,7 @@
   --ifm-color-primary-light: rgb(235, 235, 235);
   --ifm-color-primary-lighter: rgb(255, 255, 255);
   --ifm-color-primary-lightest: rgb(255, 255, 255);
+  --ifm-color-secondary: rgb(200, 200, 200);
   --ifm-background-color: rgb(235, 235, 235);
   --ifm-menu-color-active: white;
   --ifm-menu-color-background-active: rgb(0, 100, 255);
@@ -37,6 +38,12 @@ html[data-theme="dark"] {
   --ifm-menu-color-background-active: rgb(0, 200, 255);
   --ifm-menu-color-background-hover: rgba(0, 200, 255, 0.2);
   --ifm-toc-border-color: white;
+}
+
+html[data-theme="dark"] .admonition.alert--secondary {
+    --ifm-color-secondary: rgb(60, 60, 60);
+    --ifm-alert-color: white;
+    --ra-admonition-icon-color: white;
 }
 
 html {
@@ -70,12 +77,18 @@ h3 {
 
 .keycap {
     display: inline-block;
-    border: 1px solid var(--ifm-toc-border-color);
-    padding: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
     border-radius: 5px;
     font-size: 9pt;
     margin-left: 0px;
     margin-right: 5px;
+    border-top: 1px solid var(--ifm-toc-border-color);
+    border-left: 1px solid var(--ifm-toc-border-color);
+    border-right: 1px solid var(--ifm-toc-border-color);
+    border-bottom: 3px solid var(--ifm-toc-border-color);
 }
 
 .keycapContainer {
@@ -86,4 +99,9 @@ h3 {
 
 .inlineImage {
     margin-bottom: var(--ifm-leading);
+}
+
+.alert--warning {
+    color: black;
+    --ra-admonition-icon-color: black;
 }

@@ -63,6 +63,9 @@ theBeat also includes some global keyboard shortcuts:
     <Keycap>K</Keycap> Play/Pause
 </KeycapContainer>
 - <KeycapContainer>
+    <Keycap>L</Keycap> Fast Forward 10 Seconds
+</KeycapContainer>
+- <KeycapContainer>
     <Keycap>↑</Keycap> Volume Up
 </KeycapContainer>
 - <KeycapContainer>

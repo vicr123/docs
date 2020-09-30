@@ -12,6 +12,7 @@ module.exports = {
       defaultMode: 'dark'
     },
     navbar: {
+      hideOnScroll: true,
       title: 'Victor Tran',
       logo: {
         alt: 'My Site Logo',
