@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Victor Tran',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://help.vicr123.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/icon.png',
