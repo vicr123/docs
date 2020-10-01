@@ -46,6 +46,15 @@ html[data-theme="dark"] .admonition.alert--secondary {
     --ra-admonition-icon-color: white;
 }
 
+.markdown svg {
+    vertical-align: middle;
+    margin-bottom: 4px;
+}
+
+html[data-theme="dark"] .markdown :not(.admonition-icon) > svg {
+    filter: invert(1);
+}
+
 html {
     font-family: 'Contemporary';
 }
@@ -89,6 +98,13 @@ h3 {
     border-left: 1px solid var(--ifm-toc-border-color);
     border-right: 1px solid var(--ifm-toc-border-color);
     border-bottom: 3px solid var(--ifm-toc-border-color);
+    cursor: default;
+    user-select: none;
+}
+
+.keycap:active {
+    border-bottom: 1px solid var(--ifm-toc-border-color);
+    margin-top: 3px;
 }
 
 .keycapContainer {
@@ -104,4 +120,8 @@ h3 {
 .alert--warning {
     color: black;
     --ra-admonition-icon-color: black;
+}
+
+.footer {
+    border-top: 1px solid var(--ifm-toc-border-color);
 }
