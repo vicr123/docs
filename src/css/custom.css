@@ -92,7 +92,7 @@ h3 {
     padding-right: 9px;
     border-radius: 5px;
     font-size: 9pt;
-    margin-left: 0px;
+    margin-left: 5px;
     margin-right: 5px;
     border-top: 1px solid var(--ifm-toc-border-color);
     border-left: 1px solid var(--ifm-toc-border-color);
@@ -100,6 +100,10 @@ h3 {
     border-bottom: 3px solid var(--ifm-toc-border-color);
     cursor: default;
     user-select: none;
+}
+
+.keycap:first-child {
+    margin-left: 0px;
 }
 
 .keycap:active {

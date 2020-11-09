@@ -40,6 +40,10 @@ In the Artists view, theBeat shows a list of artists in your library. Selecting 
 
 In the Albums view, theBeat shows a list of albums in your library. Selecting an album will take you to a list of the included tracks, sorted by track number.
 
+### Browsing Playlists
+
+In the Playlists view, theBeat shows a list of playlists that you have created. Selecting a playlist will take you to the list of tracks within that playlist. For more information on playlists, visit [Playlists](playlists).
+
 ## The Header
 
 The Header shows the current artist or album being displayed, followed by some actions. The actions you see will depend on what you're looking at and which actions are available.

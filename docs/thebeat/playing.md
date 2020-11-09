@@ -47,6 +47,8 @@ Playing music from a CD is only supported on Linux platforms at this time.
 
 CDs will be automatically detected and placed under the "Other Sources" tab. Clicking on a track from a CD there will add it to the end of the Play Queue.
 
+For more information about playing CDs, visit [Playing CDs](playing-cds).
+
 ### Removing Music from the Play Queue
 
 To remove a track from the Play Queue, right click on the track and select the "Remove from Queue" option. To remove everything from the play queue, you can use the "Clear Queue" option.
@@ -79,26 +81,40 @@ The Shuffle function allows you to listen to the Play Queue in a random order. T
 
 The Repeat function allows you to listen to one track repeatedly. The track will repeat until you turn off the Repeat function. To enable Repeat, click on the <RepeatIcon alt="Repeat Button" /> Repeat button in the Control Strip. To turn it off, click <RepeatIcon alt="Repeat Button" /> Repeat again.
 
+More Repeat options are available if you right-click the <RepeatIcon alt="Repeat Button" /> Repeat button.
+- **Repeat Play Queue**<br />
+  If this option is checked, theBeat will start at the beginning of the Play Queue once all of the tracks have been played. Otherwise, theBeat will automatically stop playing once it reaches the end of the Play Queue.
+
 If both Shuffle and Repeat are turned on at the same time, Repeat will take precedence.
 
 ## Keyboard Shortcuts
 
 theBeat also includes some global keyboard shortcuts:
-- <KeycapContainer>
-    <Keycap>SPACE</Keycap> Play/Pause
-</KeycapContainer>
-- <KeycapContainer>
-    <Keycap>J</Keycap> Rewind 10 Seconds
-</KeycapContainer>
-- <KeycapContainer>
-    <Keycap>K</Keycap> Play/Pause
-</KeycapContainer>
-- <KeycapContainer>
-    <Keycap>L</Keycap> Fast Forward 10 Seconds
-</KeycapContainer>
-- <KeycapContainer>
-    <Keycap>↑</Keycap> Volume Up
-</KeycapContainer>
-- <KeycapContainer>
-    <Keycap>↓</Keycap> Volume Down
-</KeycapContainer>
+- **Play/Pause**
+  <KeycapContainer>
+    <Keycap>SPACE</Keycap> or <Keycap>K</Keycap>
+  </KeycapContainer>
+- **Skip Back**
+  <KeycapContainer>
+    <Keycap>SHIFT</Keycap><Keycap>←</Keycap>
+  </KeycapContainer>
+- **Skip Next**
+  <KeycapContainer>
+    <Keycap>SHIFT</Keycap><Keycap>→</Keycap>
+  </KeycapContainer>
+- **Rewind 10 Seconds**
+  <KeycapContainer>
+    <Keycap>J</Keycap> or <Keycap>←</Keycap>
+  </KeycapContainer>
+- **Fast Forward 10 Seconds**
+  <KeycapContainer>
+    <Keycap>L</Keycap> or <Keycap>→</Keycap>
+  </KeycapContainer>
+- **Volume Up**
+  <KeycapContainer>
+    <Keycap>↑</Keycap>
+  </KeycapContainer>
+- **Volume Down**
+  <KeycapContainer>
+    <Keycap>↓</Keycap>
+  </KeycapContainer>

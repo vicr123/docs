@@ -28,6 +28,16 @@ Install the `thebeat` package from the AUR.
 
 </TabItem>
 <TabItem value="fedora">
-theBeat is coming to Fedora soon. Stay tuned!
+
+Enable the theSuite COPR repository
+```bash
+sudo dnf copr enable vicr123/theSuite
+```
+
+Install theBeat
+```bash
+sudo dnf install thebeat
+```
+
 </TabItem>
 </Tabs>
