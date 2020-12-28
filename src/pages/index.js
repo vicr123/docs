@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import Translate, { translate } from "@docusaurus/Translate";
 
 function Home() {
   const context = useDocusaurusContext();
@@ -17,14 +18,30 @@ function Home() {
       <section className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
             <div className={styles.banner}>
-                Welcome to the Victor Tran documentation!
+                <Translate
+                    id="homepage.splash.welcome"
+                    description="Welcome text on the home page">
+                    Welcome to the Victor Tran documentation!
+                </Translate>
             </div>
         </div>
       </section>
         <section className={styles.firstSection}>
             <div className="container">
-                <h3>Select a project</h3>
-                <p>Documentation is available for these projects now.</p>
+                <h3>
+                    <Translate
+                        id="homepage.first.select-project"
+                        description="Select Project text on the homepage">
+                        Select a project
+                    </Translate>
+                </h3>
+                <p>
+                    <Translate
+                        id="homepage.first.documentation-available"
+                        description="Documentation is available... text on the homepage">
+                        Documentation is available for these projects now.
+                    </Translate>
+                </p>
                 <div className={styles.projectLinks}>
                     <Link
                       className={clsx(

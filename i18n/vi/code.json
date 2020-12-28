@@ -1,0 +1,14 @@
+{
+  "homepage.splash.welcome": {
+    "message": "Chào mừng bạn với trợ giúp Victor Tran!",
+    "description": "Welcome text on the home page"
+  },
+  "homepage.first.select-project": {
+    "message": "Chọn một dự án",
+    "description": "Select Project text on the homepage"
+  },
+  "homepage.first.documentation-available": {
+    "message": "Trợ giúp có sẵn cho các dự án này ngay bây giờ.",
+    "description": "Documentation is available... text on the homepage"
+  }
+}
