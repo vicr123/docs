@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.thebeat.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category Getting Started in sidebar thebeat"
+  },
+  "sidebar.thebeat.category.Navigation": {
+    "message": "Navigation",
+    "description": "The label for category Navigation in sidebar thebeat"
+  },
+  "sidebar.thebeat.category.CDs": {
+    "message": "CDs",
+    "description": "The label for category CDs in sidebar thebeat"
+  }
+}

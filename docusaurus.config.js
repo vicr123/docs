@@ -7,6 +7,10 @@ module.exports = {
   favicon: 'img/icon.png',
   organizationName: 'vicr123', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "vi"]
+  },
   themeConfig: {
     colorMode: {
       defaultMode: 'dark'

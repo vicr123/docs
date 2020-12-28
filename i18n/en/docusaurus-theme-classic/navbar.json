@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Victor Tran",
+    "description": "The title in the navbar"
+  },
+  "item.label.theBeat": {
+    "message": "theBeat",
+    "description": "Navbar item with label theBeat"
+  },
+  "item.label.Main Site": {
+    "message": "Main Site",
+    "description": "Navbar item with label Main Site"
+  }
+}

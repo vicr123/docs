@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Tiếp",
+    "description": "The label for version current"
+  },
+  "sidebar.thebeat.category.Getting Started": {
+    "message": "Bắt đầu",
+    "description": "The label for category Getting Started in sidebar thebeat"
+  },
+  "sidebar.thebeat.category.Navigation": {
+    "message": "Tìm đường xung quanh",
+    "description": "The label for category Navigation in sidebar thebeat"
+  },
+  "sidebar.thebeat.category.CDs": {
+    "message": "Các đĩa CD",
+    "description": "The label for category CDs in sidebar thebeat"
+  }
+}
