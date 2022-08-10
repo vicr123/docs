@@ -36,7 +36,6 @@ module.exports = {
         },
       ],
     },
-    sidebarCollapsible: false,
     footer: {
       links: [
         {
