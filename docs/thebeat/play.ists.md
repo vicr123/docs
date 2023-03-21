@@ -3,23 +3,21 @@ id: playlists
 title: Playlists
 ---
 
-import PlaylistIcon from '../../icons/view-media-playlist.svg'
-import AddIcon from '../../icons/list-add.svg'
-import ApplicationMenu from '../../icons/application-menu.svg'
+import Icon from "../../src/components/icon.jsx";
 
 Playlists represent a collection of tracks that you can customise.
 
 ## Adding a Playlist
 
-To add a playlist, navigate to the <PlaylistIcon /> Playlists view and select <AddIcon /> Create Playlist.
+To add a playlist, navigate to the <Icon name="view-media-playlist" /> Playlists view and select <Icon name="list-add" /> Create Playlist.
 
 ## Adding tracks to a Playlist
 
-To add a track to a playlist, start by locating it in your library. Once you have found the track, right click it, select <AddIcon /> Add to Playlist, and then select the playlist you would like to add the track to.
+To add a track to a playlist, start by locating it in your library. Once you have found the track, right click it, select <Icon name="list-add" /> Add to Playlist, and then select the playlist you would like to add the track to.
 
 ## The Header
 
-The Header shows the current playlist, followed by some actions. The actions you see will depend on what you're looking at and which actions are available. Some menu items may be hidden behind a <ApplicationMenu /> disclosure button.
+The Header shows the current playlist, followed by some actions. The actions you see will depend on what you're looking at and which actions are available. Some menu items may be hidden behind a <Icon name="application-menu" /> disclosure button.
 
 - **Enqueue All**<br />
   Adds the entire playlist to the play queue
