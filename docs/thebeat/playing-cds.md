@@ -3,7 +3,7 @@ id: playing-cds
 title: Playing CDs
 ---
 
-import ViewListDetailsIcon from '../../icons/view-list-details.svg'
+import Icon from "../../src/components/icon.jsx";
 
 If your computer has a CD drive installed, theBeat can play your CDs.
 
@@ -13,7 +13,7 @@ Playing music from a CD is only supported on Linux platforms at this time.
 
 ## Viewing CD Information
 
-Any CDs detected by theBeat appear under the <ViewListDetailsIcon /> Other Sources view. Select a CD to get started.
+Any CDs detected by theBeat appear under the <Icon name="view-list-details" /> Other Sources view. Select a CD to get started.
 
 When you insert a CD, theBeat queries the [MusicBrainz Database](https://musicbrainz.org/) to obtain information about the currently inserted CD.
 

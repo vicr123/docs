@@ -3,17 +3,9 @@ id: playing
 title: Playing Music
 ---
 
+import Icon from "../../src/components/icon.jsx";
 import Image from '@theme/IdealImage';
 import { KeycapContainer, Keycap } from '../../src/components/keycap';
-
-import PlayIcon from '../../icons/media-playback-start.svg'
-import ZenIcon from '../../icons/arrow-up.svg'
-import VolumeIcon from '../../icons/audio-volume-high.svg'
-import ShuffleIcon from '../../icons/media-playlist-shuffle.svg'
-import RepeatIcon from '../../icons/media-repeat-single.svg'
-import SkipBackIcon from '../../icons/media-skip-backward.svg'
-import PauseIcon from '../../icons/media-playback-pause.svg'
-import SkipForwardIcon from '../../icons/media-skip-forward.svg'
 
 ## The Play Queue
 
@@ -21,7 +13,7 @@ The Play Queue is located to the right of the window. It represents all the trac
 
 <Image className="inlineImage" img={require('./playqueue.png')} alt="Play Queue" />
 
-The item denoted by <PlayIcon /> represents the currently playing track.
+The item denoted by <Icon name="media-playback-start" /> represents the currently playing track.
 
 ### Playing Music from your library
 
@@ -63,25 +55,25 @@ The Control Strip is located on the bottom of the window. It shows information a
 
 <Image className="inlineImage" img={require('./controlstrip.png')} alt="Control Strip" />
 
-1. <ZenIcon /> Zen Mode
+1. <Icon name="arrow-up" /> Zen Mode
 2. Current Track Information
-3. <VolumeIcon /> Volume
-4. <ShuffleIcon /> Shuffle
-5. <RepeatIcon /> Repeat
-6. <SkipBackIcon /> Skip Back
-7. <PlayIcon /><PauseIcon /> Play/Pause
-8. <SkipForwardIcon /> Skip Forward
+3. <Icon name="audio-volume-high" /> Volume
+4. <Icon name="media-playlist-shuffle" /> Shuffle
+5. <Icon name="media-repeat-single" /> Repeat
+6. <Icon name="media-skip-backward" /> Skip Back
+7. <Icon name="media-playback-start" /><Icon name="media-playback-pause" /> Play/Pause
+8. <Icon name="media-skip-forward" /> Skip Forward
 9. Tracker
 
 ### Shuffle
 
-The Shuffle function allows you to listen to the Play Queue in a random order. To enable Shuffle, click on the <ShuffleIcon alt="Shuffle Button" /> Shuffle button in the Control Strip. To turn it off, click <ShuffleIcon alt="Shuffle Button" /> Shuffle again.
+The Shuffle function allows you to listen to the Play Queue in a random order. To enable Shuffle, click on the <Icon name="media-playlist-shuffle" alt="Shuffle Button" /> Shuffle button in the Control Strip. To turn it off, click <Icon name="media-playlist-shuffle" alt="Shuffle Button" /> Shuffle again.
 
 ### Repeat
 
-The Repeat function allows you to listen to one track repeatedly. The track will repeat until you turn off the Repeat function. To enable Repeat, click on the <RepeatIcon alt="Repeat Button" /> Repeat button in the Control Strip. To turn it off, click <RepeatIcon alt="Repeat Button" /> Repeat again.
+The Repeat function allows you to listen to one track repeatedly. The track will repeat until you turn off the Repeat function. To enable Repeat, click on the <Icon name="media-repeat-single" alt="Repeat Button" /> Repeat button in the Control Strip. To turn it off, click <Icon name="media-repeat-single" alt="Repeat Button" /> Repeat again.
 
-More Repeat options are available if you right-click the <RepeatIcon alt="Repeat Button" /> Repeat button.
+More Repeat options are available if you right-click the <Icon name="media-repeat-single" alt="Repeat Button" /> Repeat button.
 - **Repeat Play Queue**<br />
   If this option is checked, theBeat will start at the beginning of the Play Queue once all of the tracks have been played. Otherwise, theBeat will automatically stop playing once it reaches the end of the Play Queue.
 
