@@ -3,6 +3,7 @@ id: welcome
 title: Welcome Screen
 ---
 
+import Icon from "../../src/components/icon.jsx";
 import Image from '@theme/IdealImage';
 
 When you start theBranch, the welcome screen will be displayed.
@@ -11,7 +12,7 @@ When you start theBranch, the welcome screen will be displayed.
 
 Select from the following options to get started:
 
-- [**Open Repository**](repositories/opening/disk.md)<br />
+- [<Icon name="document-open" /> **Open Repository**](repositories/opening/disk.md)<br />
 Open an existing repository on your computer
-- [**Clone Repository**](repositories/opening/clone.md)<br />
+- [<Icon name="edit-copy" /> **Clone Repository**](repositories/opening/clone.md)<br />
 Clone a repository from a server and start working on it

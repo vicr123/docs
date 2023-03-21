@@ -3,7 +3,9 @@ id: disk
 title: Opening from disk
 ---
 
-To open a repository from disk, select the **Open Repository** option from the welcome screen, or select **Open Repository** from the menu.
+import Icon from "../../../../src/components/icon.jsx";
+
+To open a repository from disk, select the <Icon name="document-open" /> **Open Repository** option from the welcome screen, or select <Icon name="document-open" /> **Open Repository** from the menu.
 
 You will be asked to select the folder where the Git repository resides.
 
