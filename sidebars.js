@@ -4,4 +4,7 @@ module.exports = {
     "Navigation": ['thebeat/library', 'thebeat/playing', 'thebeat/playlists'],
     "CDs": ['thebeat/playing-cds', 'thebeat/importing-cds', 'thebeat/burning-cds']
   },
+  thebranch: {
+    "Getting Started": ['thebranch/intro', 'thebranch/install']
+  }
 };

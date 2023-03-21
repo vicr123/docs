@@ -30,6 +30,12 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'docs/thebranch/intro',
+          activeBasePath: 'docs/thebranch',
+          label: 'theBranch',
+          position: 'left',
+        },
+        {
           href: 'https://vicr123.com/',
           label: 'Main Site',
           position: 'right',
