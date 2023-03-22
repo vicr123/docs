@@ -51,6 +51,14 @@ function Home() {
                       to={useBaseUrl('docs/thebeat/intro')}>
                       theBeat
                     </Link>
+                    <Link
+                        className={clsx(
+                            'button button--outline button--secondary button--lg',
+                            styles.getStarted,
+                        )}
+                        to={useBaseUrl('docs/thebranch/intro')}>
+                        theBranch
+                    </Link>
                 </div>
             </div>
         </section>
