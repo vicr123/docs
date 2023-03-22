@@ -1,23 +1,27 @@
 import React from 'react';
+import Styles from './keycap.module.css';
 
-class KeycapContainer extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-    
-    render() {
-        return <span className="keycapContainer">{this.props.children}</span>
-    }
+function KeycapContainer({children, className}) {
+    return <span className={`${Styles.keycapContainer} ${className}`}>{children}</span>
 }
 
-class Keycap extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-    
-    render() {
-        return <span className="keycap">{this.props.children}</span>
-    }
+function Keycap({children}) {
+    return <span className={Styles.keycap}>{children}</span>
 }
 
-export { KeycapContainer, Keycap };
+function KeyboardShortcut({shortcut}) {
+    return <KeycapContainer className={Styles.inlineKeycapContainer}>
+        {shortcut.map((x, i) => {
+            let key = x;
+            let isMac = navigator.userAgent.toLowerCase().includes("mac");
+
+            if (isMac) {
+                if (x === "CTRL") key = "⌘";
+                if (x === "ALT") key = "⌥";
+            }
+            return <Keycap key={i}>{key}</Keycap>;
+        })}
+    </KeycapContainer>
+}
+
+export { KeycapContainer, Keycap, KeyboardShortcut };

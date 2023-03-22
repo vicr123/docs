@@ -3,9 +3,9 @@ id: disk
 title: Opening from disk
 ---
 
-import Icon from "../../../../src/components/icon.jsx";
+import Command from "../../../../src/components/command.jsx";
 
-To open a repository from disk, select the <Icon name="document-open" /> **Open Repository** option from the welcome screen, or select <Icon name="document-open" /> **Open Repository** from the menu.
+To open a repository from disk, select the <Command icon="document-open">Open Repository</Command> option from the welcome screen, or select <Command icon="document-open" shortcut={["CTRL", "O"]}>Open Repository</Command> from the menu. On a Mac, go to **File > Open Repository**.
 
 You will be asked to select the folder where the Git repository resides.
 
