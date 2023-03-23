@@ -4,8 +4,21 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
 import Translate, { translate } from "@docusaurus/Translate";
+import projects from "../projects";
+
+import Styles from "./index.module.css";
+
+function Project({project}) {
+    const baseUrl = useBaseUrl(project.start);
+    return <Link to={baseUrl}>
+            <div className={Styles.projectLink}>
+                <img className={Styles.projectIcon} src={project.icon} />
+                <span className={Styles.projectTitle}>{project.name}</span>
+                <span className={Styles.projectDescription}>{project.description}</span>
+            </div>
+        </Link>
+}
 
 function Home() {
   const context = useDocusaurusContext();
@@ -15,9 +28,9 @@ function Home() {
       title={siteConfig.title}
       description="Get help with theDesk, theBeat and more.">
       <main>
-      <section className={clsx('hero hero--primary', styles.heroBanner)}>
+      <section className={clsx('hero hero--primary', Styles.heroBanner)}>
         <div className="container">
-            <div className={styles.banner}>
+            <div className={Styles.banner}>
                 <Translate
                     id="homepage.splash.welcome"
                     description="Welcome text on the home page">
@@ -26,7 +39,7 @@ function Home() {
             </div>
         </div>
       </section>
-        <section className={styles.firstSection}>
+        <section className={Styles.firstSection}>
             <div className="container">
                 <h3>
                     <Translate
@@ -42,23 +55,8 @@ function Home() {
                         Documentation is available for these projects now.
                     </Translate>
                 </p>
-                <div className={styles.projectLinks}>
-                    <Link
-                      className={clsx(
-                        'button button--outline button--secondary button--lg',
-                        styles.getStarted,
-                      )}
-                      to={useBaseUrl('docs/thebeat/intro')}>
-                      theBeat
-                    </Link>
-                    <Link
-                        className={clsx(
-                            'button button--outline button--secondary button--lg',
-                            styles.getStarted,
-                        )}
-                        to={useBaseUrl('docs/thebranch/intro')}>
-                        theBranch
-                    </Link>
+                <div className={Styles.projectLinks}>
+                    {projects.map((project, i) => <Project project={project} key={i} />)}
                 </div>
             </div>
         </section>
