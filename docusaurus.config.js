@@ -77,6 +77,11 @@ module.exports = {
       ],
       copyright: `Copyright © Victor Tran ${new Date().getFullYear()}. Built with <a href="https://docusaurus.io/">Docusaurus.</a> Text available under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA, v4.0 or later.</a>`,
     },
+    algolia: {
+      appId: "PHJS4UJUIB",
+      apiKey: "65f017cadc35f98a9fcc13fa5ea990a4",
+      indexName: "help-vicr123"
+    }
   },
   presets: [
     [
