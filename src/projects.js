@@ -14,6 +14,14 @@ const projects = [
         description: "Git Client",
         icon: "/img/com.vicr123.thebranch.svg",
         main: true
+    },
+    {
+        name: "theFrisbee",
+        start: "docs/thefrisbee/intro",
+        basePath: "docs/thefrisbee",
+        description: "Disk Management",
+        icon: "/img/com.vicr123.thefrisbee.svg",
+        main: false
     }
 ];
 

@@ -23,5 +23,11 @@ module.exports = {
                 items: ['thebranch/repositories/sharing/overview', 'thebranch/repositories/sharing/add-remote', 'thebranch/repositories/sharing/push', 'thebranch/repositories/sharing/pull']
             }
         ]
-    }
+    },
+    thefrisbee: {
+        "Getting Started": ['thefrisbee/intro', 'thefrisbee/install'],
+        "Navigation": ['thefrisbee/mainwindow'],
+        "Working with Storage Media": ["thefrisbee/copy", "thefrisbee/erasedisk", "thefrisbee/smart"],
+        "Working with Disk Images": ["thefrisbee/imagedisk"]
+    },
 };
