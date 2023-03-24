@@ -27,9 +27,9 @@ module.exports = {
             items: [
                 ...projects.filter(project => project.main).map(project => ({
                     label: project.name,
-                  to: project.start,
-                  activeBasePath: project.basePath,
-                  position: "left"
+                    to: project.start,
+                    activeBasePath: project.basePath,
+                    position: "left"
                 })),
                 {
                     href: 'https://vicr123.com/',
@@ -43,10 +43,10 @@ module.exports = {
                 {
                     title: 'Docs',
                     items: [
-                      ...projects.filter(project => project.main).map(project => ({
-                        label: project.name,
-                        to: project.start,
-                      })),
+                        ...projects.filter(project => project.main).map(project => ({
+                            label: project.name,
+                            to: project.start,
+                        })),
                     ],
                 },
                 {
@@ -79,14 +79,26 @@ module.exports = {
         [
             '@docusaurus/preset-classic',
             {
-                docs: {
-                    sidebarPath: require.resolve('./sidebars.js')
-                },
+                docs: false,
+                // docs: {
+                //     sidebarPath: require.resolve('./sidebars.js')
+                // },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
                 },
             },
         ],
     ],
-    plugins: ['@docusaurus/plugin-ideal-image']
+    plugins: [
+        '@docusaurus/plugin-ideal-image',
+        ...projects.map(project => ([
+            "@docusaurus/plugin-content-docs",
+            {
+                id: project.name.toLowerCase(),
+                path: project.basePath,
+                routeBasePath: project.basePath,
+                sidebarPath: require.resolve(`./sidebars/${project.name.toLowerCase()}-sidebar.js`)
+            }
+        ]))
+    ]
 };
