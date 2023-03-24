@@ -35,3 +35,17 @@ Once you've selected the files you want to commit, you can enter a message into 
 If you also want to [push](../sharing/push.md) the branch to a remote afterwards, you can check the **Push to remote** box.
 
 When you've finished entering the commit message, press the <Command icon="commit">Commit # Files</Command> button. theBranch will create a commit with the changes that you specified and record it in the repository.
+
+### If more details are required
+
+If you have not yet configured Git with your name and email address, the **Finalise Commit** dialog will appear.
+
+<Image className="inlineImage" img={require('./commit-author.png')} />
+
+Git requires a name and an email address for every commit. Enter your details and click <Command icon="commit">Commit</Command>. theBranch will sign the newly created commit with your details.
+
+If you check the **Save in global Git configuration** box, the details you enter will be saved on your device and used to sign all future commits.
+
+:::info
+You can always change the details Git is using to commit in the settings.
+:::
