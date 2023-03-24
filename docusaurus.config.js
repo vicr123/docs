@@ -28,8 +28,6 @@ module.exports = {
                 ...projects.filter(project => project.main).map(project => ({
                     type: "doc",
                     label: project.name,
-                    to: project.start,
-                    activeBasePath: project.basePath,
                     docId: project.startId,
                     docsPluginId: project.id,
                     position: "left"
@@ -38,8 +36,10 @@ module.exports = {
                     type: "dropdown",
                     label: "More",
                     items: projects.filter(project => !project.main).map(project => ({
+                        type: "doc",
                         label: project.name,
-                        href: project.start
+                        docId: project.startId,
+                        docsPluginId: project.id
                     })),
                     position: "left"
                 },
@@ -106,7 +106,12 @@ module.exports = {
                 id: project.id,
                 path: project.basePath,
                 routeBasePath: project.basePath,
-                sidebarPath: require.resolve(`./sidebars/${project.id}-sidebar.js`)
+                sidebarPath: require.resolve(`./sidebars/${project.id}-sidebar.js`),
+                versions: {
+                    current: {
+                        label: "Blueprint"
+                    }
+                }
             }
         ]))
     ]
