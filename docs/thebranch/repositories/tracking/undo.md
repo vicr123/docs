@@ -92,6 +92,6 @@ If you are reverting a merge commit, you will be asked to select a *mainline com
 
 ### Resolving conflicts
 
-If changes from the commit conflict with the current files, Git will not be able to merge the changes automatically. For example, if the same line is changed in your local repository (in a later commit) and also in the commit to be reverted, a conflict occurs. If this happens when you are reverting, you will be asked to merge changes.
+If changes from the commit conflict with the current files, Git will not be able to merge the changes automatically. For example, if the same line is changed in your local repository (in a later commit) and also in the commit to be reverted, a conflict occurs. If this happens when you are reverting, you will be asked to [resolve conflicts](../conflicts.md).
 
 Once you have selected an appropriate resolution for all the conflicting changes, click <Command icon="vcs-revert">Revert</Command>. theBranch will conclude the revert operation, resolving the conflicting changes in the manner that you instructed.

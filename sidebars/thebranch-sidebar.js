@@ -16,7 +16,8 @@ module.exports = {
                 type: "category",
                 label: "Sharing Changes",
                 items: ['repositories/sharing/overview', 'repositories/sharing/add-remote', 'repositories/sharing/push', 'repositories/sharing/pull']
-            }
+            },
+            'repositories/conflicts'
         ]
     },
 }
