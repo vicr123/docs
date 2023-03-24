@@ -3,7 +3,7 @@ id: playing-cds
 title: Playing CDs
 ---
 
-import Icon from "../../src/components/icon.jsx";
+import Icon from "@site/src/components/icon.jsx";
 
 If your computer has a CD drive installed, theBeat can play your CDs.
 

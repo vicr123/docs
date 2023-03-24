@@ -3,7 +3,7 @@ id: disk
 title: Opening from disk
 ---
 
-import Command from "../../../../src/components/command.jsx";
+import Command from "@site/src/components/command.jsx";
 
 To open a repository from disk, select the <Command icon="document-open">Open Repository</Command> option from the welcome screen, or select <Command icon="document-open" shortcut={["CTRL", "O"]}>Open Repository</Command> from the menu. On a Mac, go to **File > Open Repository**.
 

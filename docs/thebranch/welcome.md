@@ -3,7 +3,7 @@ id: welcome
 title: Welcome Screen
 ---
 
-import Icon from "../../src/components/icon.jsx";
+import Icon from "@site/src/components/icon.jsx";
 import Image from '@theme/IdealImage';
 
 When you start theBranch, the welcome screen will be displayed.

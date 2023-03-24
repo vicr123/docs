@@ -4,7 +4,7 @@ title: Burning CDs
 ---
 
 import Image from '@theme/IdealImage';
-import Icon from "../../src/components/icon.jsx";
+import Icon from "@site/src/components/icon.jsx";
 
 If you have a CD writer installed, theBeat can burn CDs that work on standard CD players.
 

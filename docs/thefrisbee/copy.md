@@ -3,7 +3,7 @@ id: copy
 title: Copying a Medium
 ---
 
-import Command from "../../src/components/command.jsx";
+import Command from "@site/src/components/command.jsx";
 import Image from '@theme/IdealImage';
 
 theFrisbee allows you to copy an entire medium from one location to another.

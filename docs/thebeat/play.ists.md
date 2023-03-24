@@ -3,7 +3,7 @@ id: playlists
 title: Playlists
 ---
 
-import Icon from "../../src/components/icon.jsx";
+import Icon from "@site/src/components/icon.jsx";
 
 Playlists represent a collection of tracks that you can customise.
 

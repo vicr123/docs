@@ -3,7 +3,7 @@ id: commit
 title: Creating a commit
 ---
 
-import Command from "../../../../src/components/command.jsx";
+import Command from "@site/src/components/command.jsx";
 import Image from '@theme/IdealImage';
 
 ## Starting a commit

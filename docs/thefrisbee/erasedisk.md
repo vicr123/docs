@@ -3,8 +3,8 @@ id: erasedisk
 title: Erasing a Disk
 ---
 
-import Icon from "../../src/components/icon.jsx";
-import Command from "../../src/components/command.jsx";
+import Icon from "@site/src/components/icon.jsx";
+import Command from "@site/src/components/command.jsx";
 import Image from '@theme/IdealImage';
 
 ## About erasing a disk

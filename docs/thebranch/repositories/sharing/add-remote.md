@@ -3,7 +3,7 @@ id: add-remote
 title: Adding a remote
 ---
 
-import Command from "../../../../src/components/command.jsx";
+import Command from "@site/src/components/command.jsx";
 import Image from '@theme/IdealImage';
 
 Adding a remote allows theBranch to share code with a remote server.

@@ -4,7 +4,7 @@ title: Importing CDs
 ---
 
 import Image from '@theme/IdealImage';
-import Icon from "../../src/components/icon.jsx";
+import Icon from "@site/src/components/icon.jsx";
 
 theBeat allows you to import CDs into your computer, so that you are able to listen to them without needing the CD in the drive.
 

@@ -3,7 +3,7 @@ id: smart
 title: Working with SMART
 ---
 
-import Command from "../../src/components/command.jsx";
+import Command from "@site/src/components/command.jsx";
 import Image from '@theme/IdealImage';
 
 ## About SMART

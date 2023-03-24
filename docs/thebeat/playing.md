@@ -3,7 +3,7 @@ id: playing
 title: Playing Music
 ---
 
-import Icon from "../../src/components/icon.jsx";
+import Icon from "@site/src/components/icon.jsx";
 import Image from '@theme/IdealImage';
 import { KeycapContainer, Keycap } from '../../src/components/keycap';
 

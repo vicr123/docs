@@ -3,7 +3,7 @@ id: push
 title: Pushing your commits
 ---
 
-import Command from "../../../../src/components/command.jsx";
+import Command from "@site/src/components/command.jsx";
 import Image from '@theme/IdealImage';
 
 ## Starting a push operation

@@ -3,7 +3,7 @@ id: imagedisk
 title: Taking a Disk Image
 ---
 
-import Command from "../../src/components/command.jsx";
+import Command from "@site/src/components/command.jsx";
 import Image from '@theme/IdealImage';
 
 A **Disk Image** is a 1:1 representation of the data on a storage medium. Disk Images can be attached to the device, and then it will act as a storage medium in itself.

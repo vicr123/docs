@@ -3,10 +3,10 @@ id: clone
 title: Cloning a remote repository
 ---
 
-import Icon from "../../../../src/components/icon.jsx";
-import Command from "../../../../src/components/command.jsx";
+import Icon from "@site/src/components/icon.jsx";
+import Command from "@site/src/components/command.jsx";
 import Image from '@theme/IdealImage';
-import {KeyboardShortcut} from "../../../../src/components/keycap";
+import {KeyboardShortcut} from "@site/src/components/keycap";
 
 To open a repository that is hosted online, you will need to *clone* the repository. Cloning the repository makes a copy of the repository on your local computer, so that you can edit the files and perform version control operations.
 
