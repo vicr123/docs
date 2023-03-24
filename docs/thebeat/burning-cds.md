@@ -6,14 +6,24 @@ title: Burning CDs
 import Image from '@theme/IdealImage';
 import Command from "@site/src/components/command.jsx";
 import Icon from "@site/src/components/icon.jsx";
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs defaultValue="windows" values={[
+    {label: "Windows", value: "windows"},
+    {label: "macOS", value: "macos"},
+    {label: "Linux", value: "linux"}
+]}>
+<TabItem value="windows">
+
+Instructions for burning CDs on Windows is not available at this time.
+
+</TabItem>
+<TabItem value="macos">
 
 If you have a CD writer installed, theBeat can burn CDs that work on standard CD players.
 
 theBeat will also automatically write CD-Text onto the CD, so any devices that support CD-Text will be able to display metadata for each track.
-
-:::note Note
-Burning CDs can only be performed on Linux platforms at this time.
-:::
 
 To get started, open an artist, album or playlist page, and then click the <Command icon="tools-media-optical-burn">Burn</Command> button.
 
@@ -21,11 +31,34 @@ To get started, open an artist, album or playlist page, and then click the <Comm
 To create a CD with tracks of your own choosing, create a playlist for the CD. Once you add tracks to the playlist, you can burn the playlist to a CD.
 :::
 
-## Burn Options
+The **Burn** dialog will appear.
+
+<Image className="inlineImage" img={require('./burn-mac.png')} />
+
+Set the options you would like to use to burn, and then click <Command>Burn</Command> to start burning the CD. The burn progress can be tracked using the Jobs button in the top right corner of the window. Once the burn process is complete, the CD will be ejected automatically, and a notification will appear to let you know.
+
+</TabItem>
+<TabItem value="linux">
+
+If you have a CD writer installed, theBeat can burn CDs that work on standard CD players.
+
+theBeat will also automatically write CD-Text onto the CD, so any devices that support CD-Text will be able to display metadata for each track.
+
+To get started, open an artist, album or playlist page, and then click the <Command icon="tools-media-optical-burn">Burn</Command> button. If you have more than one valid burner, select the burner that you want to use.
+
+:::tip
+To create a CD with tracks of your own choosing, create a playlist for the CD. Once you add tracks to the playlist, you can burn the playlist to a CD.
+:::
+
+The **Burn** dialog will appear.
 
 <Image className="inlineImage" img={require('./burn.png')} />
 
 - **Album Name**<br />
-  The name of the album to be written onto the CD as CD-Text.
+The name of the album to be written onto the CD as CD-Text.
 
 Once these settings are set as you'd like, select <Command icon="tools-media-optical-burn">Burn</Command> to start burning the CD. The burn progress can be tracked using the Jobs button in the top right corner of the window. Once the burn process is complete, the CD will be ejected automatically, and a notification will appear to let you know.
+
+</TabItem>
+</Tabs>
+
