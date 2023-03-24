@@ -32,6 +32,15 @@ module.exports = {
                     position: "left"
                 })),
                 {
+                    type: "dropdown",
+                    label: "More",
+                    items: projects.filter(project => !project.main).map(project => ({
+                        label: project.name,
+                        href: project.start
+                    })),
+                    position: "left"
+                },
+                {
                     href: 'https://vicr123.com/',
                     label: 'Main Site',
                     position: 'right',
@@ -80,9 +89,6 @@ module.exports = {
             '@docusaurus/preset-classic',
             {
                 docs: false,
-                // docs: {
-                //     sidebarPath: require.resolve('./sidebars.js')
-                // },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
                 },
