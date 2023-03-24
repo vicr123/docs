@@ -1,6 +1,6 @@
 ---
 id: overview
-title: Overview
+title: Collaborating and Sharing
 ---
 
 ## Remotes

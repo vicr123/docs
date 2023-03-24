@@ -1,6 +1,6 @@
 ---
 id: overview
-title: Overview
+title: How Changes are Recorded
 ---
 
 When you use Git, your changes are saved incrementally in stages. Each stage is called a **commit**, and creating such a stage is called **committing** to the repository.

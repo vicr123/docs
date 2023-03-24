@@ -10,7 +10,7 @@ module.exports = {
             {
                 type: "category",
                 label: "Tracking Changes",
-                items: ['repositories/tracking/overview', 'repositories/tracking/commit']
+                items: ['repositories/tracking/overview', 'repositories/tracking/commit', 'repositories/tracking/checkout-old', 'repositories/tracking/undo']
             },
             {
                 type: "category",
