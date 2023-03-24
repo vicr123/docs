@@ -26,9 +26,12 @@ module.exports = {
             },
             items: [
                 ...projects.filter(project => project.main).map(project => ({
+                    type: "doc",
                     label: project.name,
                     to: project.start,
                     activeBasePath: project.basePath,
+                    docId: project.startId,
+                    docsPluginId: project.id,
                     position: "left"
                 })),
                 {
@@ -100,10 +103,10 @@ module.exports = {
         ...projects.map(project => ([
             "@docusaurus/plugin-content-docs",
             {
-                id: project.name.toLowerCase(),
+                id: project.id,
                 path: project.basePath,
                 routeBasePath: project.basePath,
-                sidebarPath: require.resolve(`./sidebars/${project.name.toLowerCase()}-sidebar.js`)
+                sidebarPath: require.resolve(`./sidebars/${project.id}-sidebar.js`)
             }
         ]))
     ]

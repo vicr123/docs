@@ -2,3 +2,7 @@
     width: 16px;
     height: 16px;
 }
+
+html[data-theme="dark"] .icon {
+    filter: invert(1);
+}
