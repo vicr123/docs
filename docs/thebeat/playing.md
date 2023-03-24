@@ -22,7 +22,9 @@ Clicking on a track will add it to the end of the Play Queue and start playing i
 
 ### Playing Music from disk
 
-You can open a file on your disk by opening the menu and selecting the Open option. The file you select to play will be added to the end of the Play Queue.
+To open a file from disk, select <Command icon="document-open" shortcut={["CTRL", "O"]}>Open</Command> from the menu. On a Mac, go to **File > Open**.
+
+Once you select a file to play, it will be added to the end of the Play Queue.
 
 :::tip PROTIP!
 You can also just drag a file into the Play Queue to enqueue the file.
@@ -30,13 +32,11 @@ You can also just drag a file into the Play Queue to enqueue the file.
 
 ### Opening a Network Stream
 
-To add a network stream to the Play Queue, open the menu and select Open URL. A dialog box will appear where you can enter the URL of the network stream you wish to play.
+To add a network stream to the Play Queue, select <Command>Open URL</Command> from the menu. On a Mac, go to **File > Open URL**.
+
+You will be asked to enter the URL of the network stream to play. Once you've done that, it will be added to the end of the Play Queue.
 
 ### Playing Music from a CD
-
-:::note Note
-Playing music from a CD is only supported on Linux platforms at this time.
-:::
 
 CDs will be automatically detected and placed under the "Other Sources" tab. Clicking on a track from a CD there will add it to the end of the Play Queue.
 
@@ -44,7 +44,7 @@ For more information about playing CDs, visit [Playing CDs](playing-cds).
 
 ### Removing Music from the Play Queue
 
-To remove a track from the Play Queue, right click on the track and select the "Remove from Queue" option. To remove everything from the play queue, you can use the "Clear Queue" option.
+To remove a track from the Play Queue, right click on the track and select <Command icon="edit-delete">Remove from Queue</Command>. To remove everything from the play queue, select <Command icon="edit-delete">Clear Queue</Command>.
 
 ### Rearranging the Play Queue
 
