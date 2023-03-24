@@ -10,12 +10,20 @@ module.exports = {
             {
                 type: "category",
                 label: "Tracking Changes",
-                items: ['repositories/tracking/overview', 'repositories/tracking/commit', 'repositories/tracking/checkout-old', 'repositories/tracking/undo']
+                link: {
+                    type: "doc",
+                    id: 'repositories/tracking/overview'
+                },
+                items: ['repositories/tracking/commit', 'repositories/tracking/checkout-old', 'repositories/tracking/undo']
             },
             {
                 type: "category",
                 label: "Sharing Changes",
-                items: ['repositories/sharing/overview', 'repositories/sharing/add-remote', 'repositories/sharing/push', 'repositories/sharing/pull']
+                link: {
+                    type: "doc",
+                    id: 'repositories/sharing/overview'
+                },
+                items: ['repositories/sharing/add-remote', 'repositories/sharing/push', 'repositories/sharing/pull']
             },
             'repositories/conflicts'
         ]

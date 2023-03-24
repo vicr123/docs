@@ -1,6 +1,6 @@
 ---
 id: push
-title: Pushing your commits
+title: Pushing commits
 ---
 
 import Command from "@site/src/components/command.jsx";

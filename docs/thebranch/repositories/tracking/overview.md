@@ -1,7 +1,9 @@
 ---
 id: overview
-title: How Changes are Recorded
+title: Tracking Changes
 ---
+
+import DocCardList from '@theme/DocCardList';
 
 When you use Git, your changes are saved incrementally in stages. Each stage is called a **commit**, and creating such a stage is called **committing** to the repository.
 
@@ -13,3 +15,4 @@ Along with files, commits also store information like a short message, the date 
 You can think of a commit as representing the files on your disk at a specific point in time.
 :::
 
+<DocCardList />
