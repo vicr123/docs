@@ -18,7 +18,7 @@ The **Commit** dialog will appear.
 
 The **Commit** dialog gives you an opportunity to review your changes before you commit them to the repository. Selecting a file will show two versions of a file: on the left, the version of the file as at the last commit is displayed, and on the right, the version of the file currently on disk is displayed.
 
-Once you are ready to introduce the changes to the next commit, check the box next to the filename.
+Once you are ready to introduce the changes to the commit, check the box next to the filename.
 
 :::tip
 If you want to introduce all the changes made since the last commit, check the **Select # modified files** box.

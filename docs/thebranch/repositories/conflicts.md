@@ -6,7 +6,7 @@ title: Resolving Merge Conflicts
 import Command from "@site/src/components/command.jsx";
 import Image from '@theme/IdealImage';
 
-When you perform operations in theBranch, situations will arise you will need to merge two incompatible files. Such a situation is called a *merge conflict*.
+When you perform operations in theBranch, situations will arise where you will need to merge two incompatible files. Such a situation is called a *merge conflict*.
 
 If, after performing an operation, a merge conflict occurs, the **Conflict Resolution** dialog will appear.
 

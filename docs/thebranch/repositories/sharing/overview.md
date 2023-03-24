@@ -15,8 +15,8 @@ There are many third party services that can act as a remote and host your repos
 - [GitLab](https://gitlab.com/)
 - [BitBucket](https://bitbucket.org/)
 
-:::caution
-These services are provided by a third party.
+:::info
+These services are not endorsed by Victor Tran and come with terms of service that you must comply with if you decide to use them.
 :::
 
 ## Sharing your repository

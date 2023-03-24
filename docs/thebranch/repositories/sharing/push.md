@@ -31,7 +31,7 @@ If you are pushing to a new branch, click <Command icon="vcs-push">Publish Branc
 
 If authentication is required by the remote, you will be asked for the appropriate credentials to complete the push operation.
 
-## Out of date
+### If the repository is out of date
 
 If other people have pushed commits to the branch before you last pulled, theBranch will abort the push and ask you what you want to do.
 
