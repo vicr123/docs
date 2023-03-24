@@ -4,6 +4,7 @@ title: The Library
 ---
 
 import Image from '@theme/IdealImage';
+import Command from "@site/src/components/command.jsx";
 
 The library represents your music collection.
 
@@ -21,7 +22,7 @@ Drag the track from your files into the library.
 
 ### Using the menu
 
-Select the menu > Add to Library, and then select a folder. theBeat will scan the entire folder for music tracks and add them to the library for you.
+In the menu, select <Command icon="document-open">Add to Library</Command>, and then select a folder. On a Mac, go to **File > Add to Library**. theBeat will scan the entire folder for music tracks and add them to the library for you.
 
 ## Browsing the Library
 
@@ -48,11 +49,11 @@ In the Playlists view, theBeat shows a list of playlists that you have created. 
 
 The Header shows the current artist or album being displayed, followed by some actions. The actions you see will depend on what you're looking at and which actions are available.
 
-- **Enqueue All**<br />
+- <Command icon="view-media-playlist">Enqueue All</Command><br />
   Adds the entire list of tracks to the play queue
-- **Play All**<br />
+- <Command icon="media-playback-start">Play All</Command><br />
   Replaces the play queue with the list of tracks, and starts playing the first track
-- **Shuffle All**<br />
+- <Command icon="media-playlist-shuffle">Shuffle All</Command><br />
   Replaces the play queue with the list of tracks, turns on the Shuffle button and starts playing a random track.
-- **Burn**<br />
+- <Command icon="tools-media-optical-burn">Burn</Command><br />
   Begins the process of burning the list of tracks to a writable CD.

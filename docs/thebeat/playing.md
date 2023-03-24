@@ -4,6 +4,7 @@ title: Playing Music
 ---
 
 import Icon from "@site/src/components/icon.jsx";
+import Command from "@site/src/components/command.jsx";
 import Image from '@theme/IdealImage';
 import { KeycapContainer, Keycap } from '../../src/components/keycap';
 
@@ -67,13 +68,13 @@ The Control Strip is located on the bottom of the window. It shows information a
 
 ### Shuffle
 
-The Shuffle function allows you to listen to the Play Queue in a random order. To enable Shuffle, click on the <Icon name="media-playlist-shuffle" alt="Shuffle Button" /> Shuffle button in the Control Strip. To turn it off, click <Icon name="media-playlist-shuffle" alt="Shuffle Button" /> Shuffle again.
+The Shuffle function allows you to listen to the Play Queue in a random order. To enable Shuffle, click on the <Command icon="media-playlist-shuffle">Shuffle</Command> button in the Control Strip. To turn it off, click <Command icon="media-playlist-shuffle">Shuffle</Command> again.
 
 ### Repeat
 
-The Repeat function allows you to listen to one track repeatedly. The track will repeat until you turn off the Repeat function. To enable Repeat, click on the <Icon name="media-repeat-single" alt="Repeat Button" /> Repeat button in the Control Strip. To turn it off, click <Icon name="media-repeat-single" alt="Repeat Button" /> Repeat again.
+The Repeat function allows you to listen to one track repeatedly. The track will repeat until you turn off the Repeat function. To enable Repeat, click on the <Command icon="media-repeat-single">Repeat</Command> button in the Control Strip. To turn it off, click <Command icon="media-repeat-single">Repeat</Command> again.
 
-More Repeat options are available if you right-click the <Icon name="media-repeat-single" alt="Repeat Button" /> Repeat button.
+More Repeat options are available if you right-click the <Command icon="media-repeat-single">Repeat button</Command>.
 - **Repeat Play Queue**<br />
   If this option is checked, theBeat will start at the beginning of the Play Queue once all of the tracks have been played. Otherwise, theBeat will automatically stop playing once it reaches the end of the Play Queue.
 
