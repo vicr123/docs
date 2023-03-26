@@ -3,6 +3,6 @@
     height: 16px;
 }
 
-html[data-theme="dark"] .icon {
+html[data-theme="dark"] .icon.themed {
     filter: invert(1);
 }

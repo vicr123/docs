@@ -14,7 +14,7 @@ When you erase a disk, you clear out all the partitions on it. Any data that is 
 :::info
 theFrisbee will not allow you to erase the disk used to start up your device. If you want to erase the startup disk, you will need to start your device using recovery media.
 
-If you are using Cactus and want to erase your device and reinstall Cactus, you can use the reset utility. Open the **Status Center**, select <Icon name="preferences-system" /> **System Settings > ** <Icon name="preferences-system-danger" /> **Advanced**, and then select <Command icon="view-refresh">Reset this device</Command>.
+If you are using Cactus and want to erase your device and reinstall Cactus, you can use the reset utility. Open the **Status Center**, select <Icon name="preferences-system" themed={false} /> **System Settings > ** <Icon name="preferences-system-danger" themed={false} /> **Advanced**, and then select <Command icon="view-refresh">Reset this device</Command>.
 :::
 
 :::danger

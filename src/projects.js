@@ -20,6 +20,16 @@ const projects = [
         main: true
     },
     {
+        id: "the24",
+        name: "the24",
+        start: "docs/the24/intro",
+        basePath: "docs/the24",
+        description: "Clock",
+        icon: "/img/com.vicr123.the24.svg",
+        startId: "intro",
+        main: false
+    },
+    {
         id: "thefrisbee",
         name: "theFrisbee",
         start: "docs/thefrisbee/intro",
