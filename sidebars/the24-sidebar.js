@@ -5,6 +5,7 @@ module.exports = {
         },
         'time',
         'world-clock/world-clock',
-        'alarm/alarm'
+        'alarm/alarm',
+        'stopwatch/stopwatch'
     ]
 };
