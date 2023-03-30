@@ -12,7 +12,7 @@ The <Command icon="clock-stopwatch">Stopwatch</Command> allows you to measure ti
 
 <Image className="inlineImage" img={require('./stopwatch.png')} />
 
-You can start as many stopwatches as you need to, and the stopwatch continues to run even when you exit the24, and even your device is powered off.
+You can start as many stopwatches as you need to, and the stopwatch continues to run even when you exit the24, and even when your device is powered off.
 
 ## Starting a new stopwatch
 
@@ -31,7 +31,7 @@ To resume a stopwatch, click <Command icon="media-playback-start">Resume</Comman
 To reset a stopwatch, click <Command icon="view-refresh">Reset</Command>. The stopwatch will return to 0 seconds.
 
 :::info
-A stopwatch can only be reset when it is paused
+A stopwatch can only be reset when it is paused.
 :::
 
 ## Removing a stopwatch
