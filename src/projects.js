@@ -1,3 +1,9 @@
+const types = {
+    flagship: 0,
+    main: 1,
+    service: 2
+}
+
 const projects = [
     {
         id: "thebeat",
@@ -7,7 +13,7 @@ const projects = [
         description: "Audio Player",
         icon: "/img/com.vicr123.thebeat.svg",
         startId: "intro",
-        main: true
+        type: types.flagship
     },
     {
         id: "thebranch",
@@ -17,7 +23,7 @@ const projects = [
         description: "Git Client",
         icon: "/img/com.vicr123.thebranch.svg",
         startId: "intro",
-        main: true
+        type: types.flagship
     },
     {
         id: "the24",
@@ -27,7 +33,7 @@ const projects = [
         description: "Clock",
         icon: "/img/com.vicr123.the24.svg",
         startId: "intro",
-        main: false
+        type: types.main
     },
     {
         id: "thefrisbee",
@@ -37,8 +43,21 @@ const projects = [
         description: "Disk Management",
         icon: "/img/com.vicr123.thefrisbee.svg",
         startId: "intro",
-        main: false
+        type: types.main
+    },
+    {
+        id: "parlance",
+        name: "Parlance",
+        start: "docs/parlance/intro",
+        basePath: "docs/parlance",
+        description: "Localisation Platform",
+        icon: "/img/com.vicr123.parlance.svg",
+        startId: "intro",
+        type: types.service
     }
 ];
 
-module.exports = projects;
+module.exports = {
+    projects,
+    types
+};

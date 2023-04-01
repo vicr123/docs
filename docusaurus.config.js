@@ -25,7 +25,7 @@ module.exports = {
                 src: 'img/logo.svg',
             },
             items: [
-                ...projects.filter(project => project.main).map(project => ({
+                ...projects.projects.filter(project => project.type === projects.types.flagship).map(project => ({
                     type: "doc",
                     label: project.name,
                     docId: project.startId,
@@ -35,7 +35,7 @@ module.exports = {
                 {
                     type: "dropdown",
                     label: "More",
-                    items: projects.filter(project => !project.main).map(project => ({
+                    items: projects.projects.filter(project => project.type === projects.types.main).map(project => ({
                         type: "doc",
                         label: project.name,
                         docId: project.startId,
@@ -55,7 +55,7 @@ module.exports = {
                 {
                     title: 'Docs',
                     items: [
-                        ...projects.filter(project => project.main).map(project => ({
+                        ...projects.projects.filter(project => project.type === projects.types.flagship).map(project => ({
                             label: project.name,
                             to: project.start,
                         })),
@@ -100,7 +100,7 @@ module.exports = {
     ],
     plugins: [
         '@docusaurus/plugin-ideal-image',
-        ...projects.map(project => ([
+        ...projects.projects.map(project => ([
             "@docusaurus/plugin-content-docs",
             {
                 id: project.id,

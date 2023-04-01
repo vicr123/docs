@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="MDX" pattern="file[docs]:docs//*.md" />
+</component>

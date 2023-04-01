@@ -56,7 +56,7 @@ function Home() {
                     </Translate>
                 </p>
                 <div className={Styles.projectLinks}>
-                    {projects.map((project, i) => <Project project={project} key={i} />)}
+                    {projects.projects.filter(project => project.type !== projects.types.service).map((project, i) => <Project project={project} key={i} />)}
                 </div>
             </div>
         </section>
