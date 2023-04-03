@@ -16,10 +16,16 @@ The **Clone Repository** dialog will appear.
 
 <Image className="inlineImage" img={require('./clone.png')} />
 
-The dialog will ask you for some information before you can clone a repository.
+Enter the clone URL and then click <Command icon="edit-copy">Clone</Command>. theBranch will contact the repository to retrieve information about it.
 
-- **Clone URL**<br />
-The URL of the repository. Usually you can obtain this from the repository home page.
+If authentication is required by the remote, you will be asked for the appropriate credentials to complete the clone operation.
+
+Once theBranch is satisfied that it can clone from the clone URL you specified, it will ask you for more information before the clone operation starts.
+
+<Image className="inlineImage" img={require('./clone2.png')} />
+
+- **Checkout Branch**<br />
+The branch to checkout once the clone is complete.
 - **Clone to**<br />
 The folder on your local computer to create a clone of the repository at. This must be an empty folder.
 
