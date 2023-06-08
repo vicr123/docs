@@ -29,6 +29,10 @@
     --ifm-toc-border-color: black;
     --ifm-code-font-size: 95%;
     --ifm-navbar-background-color: var(--ifm-background-color);
+    --ifm-button-background: rgb(0, 200, 255);
+    --ifm-button-background-hover: rgb(127, 228, 255);
+    --ifm-button-background-active: rgb(0, 133, 170);
+    --ifm-button-color: black;
     --ifm-font-family-base: "Contemporary";
 }
 
@@ -39,6 +43,10 @@ html[data-theme="dark"] {
     /*--ifm-menu-color-background-active: rgb(0, 200, 255);*/
     /*--ifm-menu-color-background-hover: rgba(0, 200, 255, 0.2);*/
     --ifm-toc-border-color: white;
+    --ifm-button-background: rgb(0, 50, 150);
+    --ifm-button-background-hover: rgb(0, 75, 255);
+    --ifm-button-background-active: rgb(0, 33, 100);
+    --ifm-button-color: white;
 }
 
 .markdown svg {
