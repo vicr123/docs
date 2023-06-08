@@ -56,6 +56,12 @@ The **Burn** dialog will appear.
 
 - **Album Name**<br />
 The name of the album to be written onto the CD as CD-Text.
+- **Disc Type**<br />
+  The type of disc to burn. Select from the following options:
+  - **Audio CD**<br />
+    Burn a classical audio CD that can be played in any CD player
+  - **MP3 CD**<br />
+    Burn a CD with MP3 files on it. An MP3 CD can fit more tracks than an Audio CD, but is not supported by some devices.
 
 Once these settings are set as you'd like, select <Command icon="tools-media-optical-burn">Burn</Command> to start burning the CD. The burn progress can be tracked using the Jobs button in the top right corner of the window. Once the burn process is complete, the CD will be ejected automatically, and a notification will appear to let you know.
 

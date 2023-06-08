@@ -24,4 +24,4 @@ Locate the Disk Image that you wish to restore the disk from, and then click <Co
 
 <Image className="inlineImage" img={require('./restore-confirm.png')} />
 
-If you are sure that you want to copy the medium, click <Command icon="media-image-restore">Restore this image</Command>. theFrisbee will start copying the medium, and the progress can be tracked in the **Jobs** view.
+If you are sure that you want to restore the Disk Image, click <Command icon="media-image-restore">Restore this image</Command>. theFrisbee will start restoring the Disk Image, and the progress can be tracked in the **Jobs** view.
