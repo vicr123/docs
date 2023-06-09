@@ -27,6 +27,9 @@ The 24 periods in which a day is divided. Generally, hours between 6 AM and 6 PM
 The 60 periods in which an hour is divided
 - **Seconds**<br />
 The 60 periods in which a minute is divided
+:::info
+When a leap second is added to or removed from a day, the number of seconds in a minute can temporarily change to 61 or 59.
+:::
 
 :::info
 Other units for time are also available, however, the aforementioned units are the most commonly used.
